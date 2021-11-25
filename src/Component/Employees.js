@@ -23,7 +23,7 @@ class Employees extends React.Component {
         <Employee
           job="Co-Chief"
           EmployeeName="Celia Almeda"
-          img="https://did.li/ammTY"
+          img="https://did.li/PxOw5"
         />
       </section>
     );

@@ -7,7 +7,33 @@
   padding: 2%;
   padding-left: 10%;
 }
+
 .Specification article {
   width: 70%;
+  animation: fall-Up 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+
   padding: 4%;
+}
+.fall-Up {
+  animation-name: fall-Up;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fall-Up {
+  0% {
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes fall-Up {
+  0% {
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
